@@ -5,9 +5,8 @@ pwd
 date
 
 fastq1=$1
-#fastq2=$2
-crRNA=$3
-refer=$4
+crRNA=$2
+refer=$3
 
 result_path=$(dirname ${fastq1})
 mkdir -p ${result_path}/result
